@@ -11,10 +11,10 @@
 ```bash
 cd script
 pnpm install --frozen-lockfile
-pnpm dev
+npm run dev
 ```
 
-运行 `pnpm build` 可生成静态页面。依赖已发布的 `@vmaos/webrtc-sdk`，无需平台源码或其他教程。
+运行 `npm run build` 可生成静态页面。依赖已发布的 `@vmaos/webrtc-sdk`，无需平台源码或其他教程。
 
 ## 操作步骤
 

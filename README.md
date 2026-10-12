@@ -17,10 +17,20 @@
 git clone https://github.com/vmaos-cloud/vmaos-webrtc-sdk-samples.git
 cd vmaos-webrtc-sdk-samples/react
 pnpm install --frozen-lockfile
-pnpm dev
+npm run dev
 ```
 
 需要 Node.js 24.15.0 或更高版本、pnpm 12.4.1。其他示例只需将 `react` 替换为对应目录。
+
+也可在仓库根目录一次启动四个示例：
+
+```bash
+pnpm install --frozen-lockfile
+pnpm run install:demos
+npm run dev
+```
+
+`npm run dev` 是启动命令；按 Ctrl+C 停止。每个示例使用 npm 上发布的 SDK，依赖安装使用 pnpm 锁文件。
 
 ## 获取票据并连接
 
